@@ -1,6 +1,6 @@
 function getIt() {
   $('p').on("click", function() {
-    return "Hey!"
+    alert("Hey!")
   })
 }
 
@@ -23,12 +23,6 @@ function submitIt() {
       alert('Your form is going to be submitted now.')
   })
 }
-
-//if ($("input:first").val() === "correct") {
-// }
-//    alert("you entered the wrong value")
- //   return
-    
 
 //define functions here
 
