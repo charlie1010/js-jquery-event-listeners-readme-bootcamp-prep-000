@@ -22,13 +22,14 @@ function submitIt() {
   $('form').on('submit', function() {
       alert('your form is going to be submitted now')
       return
-    }
-    alert("you entered the wrong value")
-    return
   })
 }
 
 //if ($("input:first").val() === "correct") {
+// }
+//    alert("you entered the wrong value")
+ //   return
+    
 
 //define functions here
 
