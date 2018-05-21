@@ -20,7 +20,7 @@ function pressIt() {
 
 function submitIt() {
   $(document).on('submit', function() {
-    if ($("input:first").valu() === "correct") {
+    if ($("input:first").val() === "correct") {
       alert('your form is going to be submitted now')
       return
     }
