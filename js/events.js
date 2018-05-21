@@ -1,4 +1,5 @@
-$('p').on("click", function() {
+function getIt() {
+  $('p').on("click", function() 
   return "Hey!"
 })
 
