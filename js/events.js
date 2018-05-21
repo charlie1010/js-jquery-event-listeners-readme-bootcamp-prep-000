@@ -1,4 +1,4 @@
-$('p').on("eventname", function() {
+$('p').on("click", function() {
   return "Hey!"
 })
 
