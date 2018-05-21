@@ -11,14 +11,21 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('').on('keydown', function() {
-    
+  $(document).on('keydown', function(key) {
+    if(key.which == 71) {
+      alert("g was pressed")
+    }
   })
 }
 
 function submitIt() {
-  $('').on('submit', function() {
-    
+  $(document).on('submit', function() {
+    if ($("input:first").valu() === "correct") {
+      alert('your form is going to be submitted now')
+      return
+    }
+    alert("you entered the wrong value")
+    return
   })
 }
 
