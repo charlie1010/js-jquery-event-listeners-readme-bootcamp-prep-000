@@ -5,8 +5,24 @@ function getIt() {
 }
 
 function frameIt() {
-  $
+  $('img').on('load', function() {
+    
+  })
 }
+
+function pressIt() {
+  $('').on('keydown', function() {
+    
+  })
+}
+
+function submitIt() {
+  $('').on('submit', function() {
+    
+  })
+}
+
+
 //define functions here
 
 $(document).ready(function(){
