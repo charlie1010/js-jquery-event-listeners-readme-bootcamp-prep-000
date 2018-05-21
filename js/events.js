@@ -4,6 +4,9 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  $
+}
 //define functions here
 
 $(document).ready(function(){
