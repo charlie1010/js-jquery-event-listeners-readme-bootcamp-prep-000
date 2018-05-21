@@ -1,7 +1,8 @@
 function getIt() {
-  $('p').on("click", function() 
-  return "Hey!"
-})
+  $('p').on("click", function() {
+    return "Hey!"
+  })
+}
 
 //define functions here
 
